@@ -1,0 +1,41 @@
+.breadCrumb{
+	font-size: 0.8em;
+	top: -20px;
+	position: relative;
+	color: lightgrey;
+}
+#main {
+	padding: 2em 0
+}
+#chartButtons {
+	margin-top: 5px;
+}
+#trendChartContainer {
+	margin: 0 auto; /* center trend chart */
+	width: 80%;
+}
+#trendChart {
+	//width: 700px;
+	height: 400px;
+}
+.edaChart {
+	margin-top: 10px;
+	float: left;
+	width: 50%;
+	height: 350px;
+}
+#chartContainer1 {
+	overflow: hidden;	/* make outer div expand to contain floating children divs */
+}
+.meanDiffChart {
+	margin-top: 10px;
+	float: left;
+	width: 50%;
+	height: 350px;
+}
+.diagnosticsChart{
+	margin-top: 10px;
+	float: left;
+	width: 50%;
+	height: 350px;
+}

@@ -1,0 +1,293 @@
+.breadCrumb{
+	font-size: 0.8em;
+	top: -20px;
+	position: relative;
+	color: lightgrey;
+}
+#main {
+	padding: 2em 0
+}
+#chartButtons {
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+#trendChartContainer {
+	margin: 0 auto; /* center trend chart */
+	width: 90%;
+}
+#trendChart {
+	/*width: 700px;
+	height: 500px; */
+}
+.edaChart {
+	margin-top: 10px;
+	float: left;
+	width: 50%;
+	height: 350px;
+}
+#chartContainer1 {
+	overflow: hidden;	/* make outer div expand to contain floating children divs */
+}
+.meanDiffChart {
+	margin-top: 10px;
+	float: left;
+	width: 50%;
+	height: 400px;
+}
+.diagnosticsChart{
+	margin-top: 10px;
+	float: left;
+	width: 50%;
+	height: 350px;
+}
+
+/* Model CSS */
+#modelSelectDropdown {
+	float: right;
+	width: 32%;
+	margin-top: 0px;
+}
+#modelSelectDropdownLable {
+	float: left;
+	margin-top: 3px;
+}
+#modelSelectDropdown .select-wrapper:before{
+	line-height: 2em;
+}
+#modelSelectDropdown .select-wrapper{
+	float: left;
+	width: 65%;
+	margin-top: 2px;
+}
+#modelSelectDropdown select {
+	height: 2em;
+}
+#modelSelectDropdownUploadNew {
+	float: right;
+}
+/* Contrib Series Chart */
+#contribSeriesChart {
+	margin: 0 auto; /* center trend chart */
+	width: 100%;
+	/* height: 700px; */
+}
+/* Average Contrib Chart */
+#avContributionChartContainer {
+	width: 100%;
+	/* float: left; */
+	/*text-align: center; */
+}
+
+/* Saturation Curves */
+.popboxContainer {
+	float: right;
+	text-align: right;
+	height: 50px;
+}
+.saturationChart {
+	/* width: 80%; */
+}
+
+/* Simulation */
+.tableCellEdit {
+	width: 50px;
+	color: red;
+}
+.editableCell { background-color: white; }
+.editableTable .cellEditing { 
+/* padding: 0; */ 
+padding-top: 0;
+padding-bottom: 0;
+} 
+.editableTable .cellEditing input[type=text]{ width:100px; border:0; background-color:rgb(255,253,210); }
+#editableTableHeader {
+	font-weight: bold;
+}
+#simulationInputContainer {
+
+}
+
+
+/* AvP */
+#avpChart {
+	height: 500px;
+}
+#rsq, #adjrsq {
+	font-size: 250%;
+	margin: 20px;
+	text-align: center;
+}
+#rsqlabel, #adjrsqlabel {
+	text-align: center;
+}
+
+/* Sensitivity */
+#senstivityChartContainer {
+	width: 100%;
+}
+#senstivityChart {
+	width: 100%;
+	float: left;
+	padding: 0 20px;
+
+}
+#sensitivityControls {
+/*
+	float: left;
+	width: 50%;
+	padding: 0 20px;
+*/
+}
+#senitivityPopbox {
+	margin-top: 50px;
+}
+
+/* COMPARE */
+/* KPI */
+#selectionOuter {
+	display: table;
+	margin: 0 auto;
+}
+#selectionInner {
+	width: 100%;
+    margin: 0 auto;
+}
+.selectionColumn {
+	float: left;
+	margin: 0 25px 0 25px;
+			border: 0px solid;
+}
+.selectionLabelsColumn {
+	width: 120px;
+		border: 0px solid;
+}
+.selectionLabelsFirst {
+	height: 55px;
+		border: 0px solid;
+
+}
+.selectionLabels {
+	text-align: center;
+	height: 55px;
+		border: 0px solid;
+		margin: 25px 0;
+		display: table;	
+		width: 100%;
+}
+.selectionLabelsInner {
+	vertical-align: middle;
+	display: table-cell;
+}
+.selectionSparklineCell {
+	text-align: center;
+	vertical-align: middle;
+	height: 55px;
+	width: 100%;
+	margin: 25px 0;
+		border: 0px solid;
+			display: table;	
+}
+.selectionSparklineCellInner {
+	vertical-align: middle;
+	display: table-cell;
+}
+.selectionHeader {
+	text-align: center;
+	height: 55px;
+	width: 100%;
+	display: table;
+		border: 0px solid;
+}
+.selectionHeaderInner {
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+	color: #646464;
+	vertical-align: middle;
+	display: table-cell;
+	border: 1px solid lightgrey;
+	border-radius: 10px;
+	font-size: 18px;
+}
+.selectionHeaderInner a {
+	border: 0px;
+	color: lightgrey;
+	font-size: 14px;
+}
+.selectionAddMore {
+	height: 55px;
+	width: 120px;
+	display: table;	
+	border: 2px dotted lightgrey;
+	border-radius: 10px;
+}
+a.selectionAddMoreLink:hover{
+	font-weight: bold;
+	color: grey;
+}
+a.selectionAddMoreLink {
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+	border: 0px;
+	color: lightgrey;
+	vertical-align: middle;
+	display: table-cell;
+}
+#selectTableVariable {
+	display: none;
+}
+#selectTableVariableInner {
+	background-color: white; 
+	border-radius: 10px;
+	width: 300px;
+	padding: 25px 25px 15px 25px;
+	
+}
+
+/* QUERY PAGE */
+#kpiSelectInput {
+	width: 230px;
+	height: 200px;
+}
+#driverSelectInput {
+	width: 250px;
+	height: 200px;
+}
+select#driverSelectInput optgroup,select#kpiSelectInput optgroup  {
+/*	font-weight: bold; */
+	color: lightgrey;
+}
+#queryUpdateButton {
+	margin: 20px 0;
+}
+.optGroupVarType {
+/*	padding-left: 0px;
+*/
+}
+.optGroupVariable {
+/*	padding-left: 20px;
+*/
+	color: grey;
+}
+.queryChartHeader {
+	margin-top: 50px;
+	padding: 5px 20px;
+	background-color: lightgrey;
+	clear: both;
+	font-weight: bold;
+	color: white;
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+}
+.queryChartsRow {
+	overflow: hidden;
+}
+.queryBiVariateChart {
+	width: 50%;
+	float: left;
+}
+.queryMeanDiffChart {
+	width: 50%;
+	float: left;
+}
